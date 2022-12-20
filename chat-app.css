@@ -1,4 +1,4 @@
-* {padding: 0; margin: 0}
+* {padding: 0; margin: 0;}
 
 h1, h2, p {font-family: 'Rubik', sans-serif;
 }
@@ -97,9 +97,16 @@ p{
 	right: 0;
 	top: 0;
 	color: white;
+}
 
-
-
+#innerbottom{
+	position: absolute;
+	top: 0;
+	margin-top: 28%;
+	width: 98%;
+	height: 85%;
+	border-radius: 0 0 20px 20px;
+	border: 2px solid green;
 }
 
 #walker{
@@ -124,8 +131,6 @@ p{
 	font-size: .5rem;
 }
 
-
-
 #walker img{
 	position: absolute;
 	top: 0;
@@ -133,7 +138,6 @@ p{
 	margin-left: 20px;
 	width: 9%;
 	background-color: purple;
-	border: 2px solid white;
 	border-radius: 50%;
 }
 
@@ -148,22 +152,14 @@ p{
 
 }
 
-
-
-#innerbottom{
-	position: absolute;
-	top: 15%;
-	width: 100%;
-	height: 15%;
-	border-radius: 30px 30px 10px 10px;
-}
-
 .textbubble_01{
+	top: 0;
 	margin-top: 4%;
 	margin-bottom: 4%;
+	margin-left: 4%;
 	position: relative;
-	width: 60%;
-	height: 50%;
+	width: 55%;
+	height: 8%;
 	border: 1px solid blue;
 	background-color: hsla(206, 6%, 79%, .4);
 	border-radius: 10px;
@@ -171,16 +167,40 @@ p{
 
 .textbubble_01  p{
 	position: absolute;
-	font-size: .6rem;r
+	font-size: .5rem;
 	color: hsl(276, 55%, 52%);
 }
 
+.dogimages{
+
+	position: relative;
+	list-style-type: none;
+	width: 100%;
+	height: 10%;
+	box-sizing: border-box;
+
+
+}
+
+.dogimages li{
+	float: right;
+	margin-right: 3%;
+}
+
+.dogimages li img{
+	width: 2.5rem;
+	border-radius: 10px;
+
+
+}
+
 .textbubble_02{
-	margin-top: 60%;
+	margin-top: 35%;
 	margin-bottom: 4%;
 	position: relative;
+	margin-left: 4%;
 	width: 60%;
-	height: 50%;
+	height: 10%;
 	border: 1px solid blue;
 	background-color: hsla(206, 6%, 79%, .4);
 	border-radius: 10px;
@@ -188,17 +208,18 @@ p{
 
 .textbubble_02  p{
 	position: absolute;
-	font-size: .6rem;
+	font-size: .5rem;
 	color: hsl(276, 55%, 52%);
 }
 
 .rates{
 	top: 0;
-	margin-top: 4%;
+	margin-top: 0%;
 	margin-bottom: 4%;
 	position: relative;
+	margin-left: 4%;
 	width: 70%;
-	height: 37%;
+	height: 7%;
 	border: 1px solid blue;
 	background-color: hsl(293, 100%, 63%);
 	border-radius: 10px;
@@ -209,14 +230,13 @@ p{
 }
 
 .messagebar{
-	top: 0;
-	margin-top: 10%;
+	bottom: 0;
 	margin-bottom: 4%;
-	position: relative;
+	position: absolute;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 40%;
+	height: 8%;
 	border: 1px solid blue;
 	border-radius: 20px;
 }
